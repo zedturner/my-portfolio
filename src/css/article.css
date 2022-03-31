@@ -111,6 +111,10 @@ h1 {
 
 /* Article body */ 
 
+section.article_body {
+    padding-bottom: 4rem;
+}
+
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.8rem;
@@ -165,4 +169,11 @@ a.footer {
     margin-top: 0.2rem;
     margin-bottom: 0.1rem;
     text-decoration: none;
+}
+
+div.section_break {
+    height: 0.1rem;
+    background: #252626;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
