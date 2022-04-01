@@ -101,10 +101,46 @@ menu.nav>* {
 menu.social_menu {
     display: flex;
     flex-direction: column;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 span.social {
-    color: white
+    color: white;
+    font-size: 2.5rem;
+    letter-spacing: 0.25rem;
+}
+
+ul.social {
+    font-size: 2.25rem;
+}
+
+#patron {
+    color: white;
+    text-decoration: none;
+}
+
+#newsletter {
+    color: white;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+#hex_social_icons {
+    display: flex;
+    margin-left: 2rem;
+}
+
+#hex_social_icons>* {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 10rem;
+    margin-inline: 0rem;
+    transition: all 0.5s;
+}
+
+#hex_social_icons>*:hover {
+    transform: scale(1.2);
 }
 
 /* Play button */ 

@@ -1,0 +1,89 @@
+/* Header styles */ 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2%;
+    background: #252626;
+}
+
+#zachary {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+#environment {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;
+    opacity: 85%;
+}
+
+
+#pages {
+    display: flex;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.75rem;
+    justify-content: space-between;
+    gap: 1rem
+}
+
+#home {
+    color: #E4FFFE;
+    text-decoration: none;
+}
+
+#about {
+    color: #A4F6F9;
+    text-decoration: none;
+}
+
+#stories {
+    color: #FF99FB;
+    text-decoration: none;
+}
+
+#contact {
+    color: #BA52ED;
+    text-decoration: none;
+}
+
+/* Parallax Kingdom styles */ 
+
+
+section#parallax_kingdom>* {
+    position: absolute;
+    object-fit: cover;
+    object-position: top;
+    height: 100vh;
+    width: 100%;
+}
+
+#foreground {
+    z-index: 5;
+}
+
+#logo {
+    z-index: 4; 
+}
+
+#midgard{
+    z-index: 3;
+}
+
+#highgard {
+    z-index: 2;
+}
+
+#background {
+    z-index: 1;
+}

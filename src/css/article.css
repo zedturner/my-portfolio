@@ -45,18 +45,22 @@ header {
 
 #home {
     color: #E4FFFE;
+    text-decoration: none;
 }
 
 #about {
     color: #A4F6F9;
+    text-decoration: none;
 }
 
 #stories {
     color: #FF99FB;
+    text-decoration: none;
 }
 
 #contact {
     color: #BA52ED;
+    text-decoration: none;
 }
 
 /* Article title and description */ 
