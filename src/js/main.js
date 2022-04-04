@@ -28,12 +28,16 @@ function hextoggle() {
 window.addEventListener("scroll", function()
 {
   let offset = window.pageYOffset; 
-  parallax1.style.bottom = -1200 + offset * 1.2 + "px";
-  parallax2.style.top = offset * 1.6 + "px"; 
-  parallax2.style.opacity = 100 - offset * 0.8 + "%";
-  parallax3.style.bottom = -1200 + offset * 1.0 + "px"; 
-  parallax4.style.bottom = -1200 + offset * 0.6 + "px"; 
-  parallax5.style.bottom = -1200 + offset * 0.4 + "px";
+  parallax1.style.bottom = -130 + offset * 0.15 + "%";
+  if (offset < 500) { 
+    parallax2.style.top = 4 + offset * 0.1 + "%";
+  } else { 
+    parallax2.style.top = 0; 
+  }; 
+  parallax2.style.opacity = 100 - offset * 0.6 + "%";
+  parallax3.style.bottom = -120 + offset * 0.02 + "%"; 
+  parallax4.style.bottom = -120 + offset * 0.002 + "%"; 
+  parallax5.style.bottom = -120 + offset * 0.001 + "%";
 })
 
 button.addEventListener("click", toggle);
