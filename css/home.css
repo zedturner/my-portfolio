@@ -1,0 +1,189 @@
+@import url(https://fonts.google.com/specimen/Bebas+Neue);
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header styles */ 
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 2%;
+    background: #252626;
+    z-index: 10;
+}
+
+#zachary {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+#environment {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;
+    opacity: 85%;
+}
+
+
+#pages {
+    display: flex;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.75rem;
+    justify-content: space-between;
+    gap: 1rem
+}
+
+#home {
+    color: #E4FFFE;
+    text-decoration: none;
+}
+
+#about {
+    color: #A4F6F9;
+    text-decoration: none;
+}
+
+#stories {
+    color: #FF99FB;
+    text-decoration: none;
+}
+
+#contact {
+    color: #BA52ED;
+    text-decoration: none;
+}
+
+/* Parallax Kingdom styles */ 
+
+section#parallax_kingdom { 
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+section#parallax_kingdom>* {
+    position: absolute;
+}
+
+#parallax_kingdom img:nth-child(1) {
+    z-index: 5;
+    bottom: -130%;
+}
+
+#parallax_kingdom img:nth-child(2) {
+    z-index: 4;
+    top: 4%;
+}
+
+#parallax_kingdom img:nth-child(3) {
+    z-index: 3;
+    bottom: -150%;
+}
+
+#parallax_kingdom img:nth-child(4) {
+    z-index: 2;
+    bottom: -150%;
+}
+
+#parallax_kingdom img:nth-child(5) {
+    z-index: 1;
+    bottom: -150%; 
+}
+
+
+
+/* Main Body styles */ 
+
+section#main_body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+article.card {
+    background: white; 
+    width: 100%;
+    height: fit-content;
+    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.75);
+    z-index: 7;
+    padding: 4rem 2rem 4rem 2rem;
+}
+
+div.social {
+    display: flex;
+}
+
+.social a {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.social a img {
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+}
+
+.social>* {
+    transition: all 0.5s;
+}
+
+.social>*:hover {
+    transform: scale(1.2);
+}
+
+
+
+article#first {
+    display: flex;
+    justify-content: space-between;
+}
+
+article#first p {
+    max-width: 75ch;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+
+.divider {
+    height: 100vh;
+    width: 100%;
+    z-index: 6;
+}
+
+#one {
+    background: url(../assets/Images/JPG/josh-hild-8f_VQ3EFbTg-unsplash.jpg);
+    background-size: cover;
+    background-position: 50% 85%;
+    background-attachment: fixed;
+}
+
+#two {
+    background: url(../assets/Images/JPG/federico-bottos-Z3NceSeZqgI-unsplash.jpg);
+    background-size: cover;
+    background-position: 50% 85%;
+    background-attachment: fixed;
+}
