@@ -35,9 +35,9 @@ window.addEventListener("scroll", function()
     parallax2.style.top = 0; 
   }; 
   parallax2.style.opacity = 100 - offset * 0.6 + "%";
-  parallax3.style.bottom = -120 + offset * 0.02 + "%"; 
-  parallax4.style.bottom = -120 + offset * 0.002 + "%"; 
-  parallax5.style.bottom = -120 + offset * 0.001 + "%";
+  parallax3.style.bottom = -150 + offset * 0.02 + "%"; 
+  parallax4.style.bottom = -150 + offset * 0.002 + "%"; 
+  parallax5.style.bottom = -150 + offset * 0.001 + "%";
 })
 
 button.addEventListener("click", toggle);
